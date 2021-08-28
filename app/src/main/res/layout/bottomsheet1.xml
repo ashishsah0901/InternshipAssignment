@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/bottomsheet"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    android:orientation="vertical"
+
+
+
+
+
+
+
+    >
+
+    <FrameLayout
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+
+        android:background="@drawable/btn_radius"
+
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+
+            android:orientation="vertical"
+
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:layout_marginTop="70dp"
+                android:textStyle="bold"
+                android:text="This is 1st Bottom Sheet" />
+
+
+
+            <Button
+                android:layout_width="250dp"
+                android:textColor="@color/white"
+
+                android:layout_height="100dp"
+                android:id="@+id/bottomsheetbtn"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/btn_radius"
+                android:textAllCaps="false"
+                android:textSize="24sp"
+                android:text="Button-1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:text="if we click this button 2nd \n bottom sheet will popup" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="330dp"
+                android:layout_gravity="center_horizontal"
+                android:text="" />
+
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
